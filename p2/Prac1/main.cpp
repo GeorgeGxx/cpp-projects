@@ -1,7 +1,10 @@
 #include <stdio.h>
-#include <conio.h>
+#include <stdlib.h>
+#include <iostream>
 #include <windows.h>
 #include <string.h>
+
+using namespace std;
 
 char nombre[40], sexo, nomalta[40], nombaja[40];
 float estatura, peso, estalta, estabaja=4, promedioedades;
