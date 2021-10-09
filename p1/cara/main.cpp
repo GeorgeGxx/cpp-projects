@@ -1,0 +1,58 @@
+#include<stdio.h>
+#include<math.h>
+#include <graphics.h>
+#include <dos.h>
+#include<stdlib.h>
+main()
+{
+    int a=DETECT,b,left,top,right,bottom,i,e,f,j,h;
+    initgraph(&a,&b,"C:\\TC\\BGI");
+    {
+        setbkcolor(20);
+        setcolor(5);
+        circle(250,175,35);
+        circle(250,175,2);
+        line(240,225,210,225);
+        line(260,225,290,225);
+        line(240,250,240,300);
+        line(260,250,260,300),
+                circle(235,170,3);
+        circle(265,170,3);
+        ellipse(250,175,225,315,10,25);
+        ellipse(265,170,0,180,9,12);
+        ellipse(235,170,0,180,9,12);
+        ellipse(240,140,0,200,12,17);
+        ellipse(260,140,343,180,12,17);
+        delay(500);
+        cleardevice();
+        circle(250,175,35);
+        circle(250,175,2);
+        line(240,225,210,225);
+        line(260,225,290,200);
+        line(240,250,240,300);
+        line(260,250,260,300);
+        ellipse(250,175,225,315,10,25);
+        ellipse(265,175,0,180,9,12);
+        ellipse(235,175,0,180,9,12);
+        ellipse(240,140,0,200,12,17);
+        ellipse(260,140,343,180,12,17);
+        delay(500);
+        cleardevice();
+        circle(250,175,35);
+        circle(250,175,2);
+        line(240,225,210,225);
+        line(260,225,290,240);
+        line(240,250,240,300);
+        line(260,250,260,300);
+        ellipse(250,175,225,315,10,25);
+        ellipse(265,175,0,180,9,12);
+        ellipse(235,175,0,180,9,12);
+        ellipse(240,140,0,200,12,17);
+        ellipse(260,140,343,180,12,17);
+        delay(500);
+        cleardevice();
+    }
+    closegraph();
+    return(0);
+}
+
