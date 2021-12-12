@@ -1,7 +1,14 @@
-#include<stdio.h>
-#include<conio.h>
-#include<windows.h>
-#include<string.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <math.h>
+#include <list>
+#include <vector>
+#include <windows.h>
+#include <cstring>
+#include <iostream>
+
+using namespace std;
 
 struct bodega
 {
@@ -84,7 +91,7 @@ int main()
 				printf("8 Chiclets \n");
 				scanf("%d",&dulcerama[contar].tipo);
 				fflush(stdin);
-				printf("Quieres captura otro articulo?  ");//quieres agregar otra refaccíon
+				printf("Quieres captura otro articulo?  ");//quieres agregar otra refaccï¿½on
 				scanf("%c",&otro);		
 	    	}while(otro=='s');
 	
@@ -105,7 +112,7 @@ int main()
 	
 	
 	
-	case 3: //Búsqueda por clave
+	case 3: //Bï¿½squeda por clave
 			system("cls");
 			fflush(stdin);
 			printf(" Quieres tu lista ordenada por clave?   ");
